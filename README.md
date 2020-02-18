@@ -1,2 +1,2 @@
 # spring-config-repo
-Spring Cloud Config Repo
+Happy Journey Config Repo
