@@ -1,0 +1,5 @@
+# Which generates a random port(new port) every time we run the Server
+# Only useful in local or dev environment
+server.port: 8081
+
+my.app: Happy Journey Catelog property from Config server.

@@ -1,0 +1,28 @@
+# Which generates a random port(new port) every time we run the Server
+# Only useful in local or dev environment
+server.port: 8082
+
+my.app: Flights Service property from Config server.
+
+
+# Flights Authentication Info
+flights:
+       auth:
+           interfaceCode: 1
+           interfaceAuthKey: AirticketOnlineWebSite
+           agentCode: MLD0000001
+           password: TEST1_
+
+# Spring profiles helps to set environments like dev,production,test. If there is no profiles set,
+# then by spring creates a profileName with "default". By default this will be active .
+# We can set these profiles by creating application-[profileName or EnvironmentName].extension(properties/yml)
+# Here we are creating test environment so added profileName as test and created file name as application-test.yml
+#spring:
+#  profiles:
+#    active: test
+
+# Spring Config server url. From this end point all the application config properties get overridden to local property files
+# spring:
+#   cloud:
+#     config:
+#       uri: http://localhost:8888

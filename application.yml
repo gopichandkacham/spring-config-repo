@@ -1,0 +1,16 @@
+my.app: Sample Profile from Config server.
+
+# Registering Eureka Client to server
+eureka:
+  client:
+        register-with-eureka: true
+        fetch-registry: true
+        
+cloud.config.uri: http://localhost:8888
+
+
+# Spring Config server url. From this end point all the application config properties get overridden to local property files
+# spring:
+#   cloud:
+#     config:
+#       uri: http://localhost:8888
