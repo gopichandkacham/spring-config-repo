@@ -4,14 +4,15 @@ server.port: 8082
 
 my.app: Flights Service property from Config server.
 
+flights.auth.config: "{\"InterfaceCode\": \"1\",\"InterfaceAuthKey\": \"AirticketOnlineWebSite\", \"AgentCode\": \"MLD0000001\",\"Password\": \"TEST1_\"}"
 
-# Flights Authentication Info
-flights:
-       auth:
-           interfaceCode: 1
-           interfaceAuthKey: AirticketOnlineWebSite
-           agentCode: MLD0000001
-           password: TEST1_
+# # Flights Authentication Info
+# flights:
+#        auth:
+#            interfaceCode: 1
+#            interfaceAuthKey: AirticketOnlineWebSite
+#            agentCode: MLD0000001
+#            password: TEST1_
 
 # Spring profiles helps to set environments like dev,production,test. If there is no profiles set,
 # then by spring creates a profileName with "default". By default this will be active .
