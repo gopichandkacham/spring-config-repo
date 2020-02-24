@@ -4,7 +4,7 @@ server.port: 8082
 
 my.app: Flights Service property from Config server.
 
-flights.api.baseurl: http://stagingv2.multilinkworld.com/API/
+flights.api.baseurl: http://stagingv2.multilinkworld.com/API
 
 flights.auth.config: "{\"InterfaceCode\": \"1\",\"InterfaceAuthKey\": \"AirticketOnlineWebSite\", \"AgentCode\": \"MLD0000001\",\"Password\": \"TEST1_\"}"
 
