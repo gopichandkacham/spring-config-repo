@@ -6,7 +6,7 @@ eureka:
         register-with-eureka: true
         fetch-registry: true
         
-cloud.config.uri: http://localhost:8888
+cloud.config.uri: http://192.168.0.146:8888
 
 
 # Spring Config server url. From this end point all the application config properties get overridden to local property files
